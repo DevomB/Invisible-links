@@ -1,0 +1,58 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.menu{
+    /*margin-top:  10px;*/
+    padding-top: 35px;
+    border: solid;
+}
+
+a:link {
+    color: rebeccapurple
+}
+
+a:visited{
+    color: rebeccapurple
+}
+
+.item p {
+    opacity: 0;
+}
+
+.item img {
+    opacity: 0;
+}
+
+.item:hover p {
+    opacity: 0;
+}
+
+.item:hover img {
+    opacity: 0;
+}
